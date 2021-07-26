@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Banner } from "../Components/Banner/Banner";
 import { NavigationBar } from "../Components/NavigationBar/NavigationBar";
+import { Services } from "../Components/Services/Services";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavigationBar />
+      <Banner />
+      <Services />
     </div>
   );
 }

@@ -1,0 +1,24 @@
+#service-header {
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: 300;
+}
+
+#services-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+#service-text-header {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#service-text-container {
+  width: 60%;
+}
+
+.service {
+  margin-top: 1rem;
+}
